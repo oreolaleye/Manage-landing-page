@@ -1,0 +1,301 @@
+
+body{
+	background-color: #ffffff;
+	background-image: url("images/bg-tablet-pattern.svg"), url("images/bg-tablet-pattern.svg");
+	background-repeat: no-repeat; 
+	background-position: -60% 68%, 120% -30%;
+	font-family: 'Be Vietnam', sans-serif;
+}
+h1{
+	font-size: 55px;
+	font-weight: bolder;
+}
+h3{
+	font-size: 43px;
+	font-weight: bold;
+}
+h5{
+	padding: 20px;
+}
+h6{
+	font-weight: bold;
+}
+p{
+	color: #c1c1c1;
+}
+
+
+
+.container-fluid{
+	padding: 0 100px 0 150px;
+}
+.btn{
+	border-radius: 25px;
+	background-color: hsl(12, 88%, 59%);
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px 35px 13px;
+}
+.btn:hover{
+	filter: brightness(1.5);
+}
+
+
+
+	/*Nav Bar*/
+.navbar{
+	padding: 50px 125px 40px 30px;
+}
+.navbar-nav{
+	margin-right: 170px;
+}
+.nav-item{
+	color: #000000;
+	font-size: 13px;
+	font-weight: bolder;
+	margin-right: 23px;
+}
+.nav-link:hover{
+	filter: brightness(0.1);
+}
+
+
+
+	/*Intro section*/
+.intro-section {
+	padding-left: 11px;
+	padding-top: 50px;
+}
+.intro-col{
+	padding: 50px 80px 0 30px;
+}
+
+.intro-text{
+	padding: 30px 200px 30px 0;
+}
+.intro-img{
+	margin-left: -40px;
+}
+.mobile{
+	display: none;
+}
+
+	/*About Section*/
+
+.about-section{
+	padding: 70px 50px 50px 30px;
+}
+.about-text{
+	padding: 30px 230px 30px 0;
+}
+.num{
+	background-color: hsl(12, 88%, 59%);
+	color: #ffffff;
+	border-radius: 25px;
+	padding: 7px 25px 10px;
+}
+.num-text{
+	padding: 10px 83px 20px 0;
+}
+
+
+	/*Testimonial Section*/
+.testimonial-section{
+	padding: 50px 20px;
+	text-align: center;
+}
+.avi-tile{
+	padding: 10px 30px;
+	margin: 80px 0;
+}
+.avi-img{
+	width: 60px;
+	height: 60px;
+}
+
+	/*Cta Section*/
+.cta-section{
+	background-image: url("images/bg-simplify-section-desktop.svg");
+	background-repeat: no-repeat;   
+	background-position: 80% 80%;
+	background-color: hsl(12, 88%, 59%);
+	color: #ffffff;
+	padding: 80px 150px;
+}
+.btn-cta{
+	background-color: #ffffff;
+	color: hsl(12, 88%, 59%);
+}
+.btn-cta:hover{
+	background-color: hsl(13, 100%, 96%);
+}
+.col-btn{
+	padding-top: 30px;
+	text-align: right;
+}
+
+
+	/*Footer*/
+footer{
+	background-color: hsl(233, 12%, 13%);
+}
+.footer-row{
+	padding: 50px 0;
+}
+ul{
+	color: #fff;
+	list-style-type: none;
+}
+li{
+	font-size: 14px;
+	padding: 8px 0;
+}
+a{
+	color: #ffffff;
+}
+a:hover{
+	color: hsl(12, 88%, 59%);
+	text-decoration: none;
+}
+.attribution{
+	color: #ffffff;
+	background-color: hsl(233, 12%, 13%);
+	text-align: center;
+}
+.footer-text{
+	font-size: 14px;
+	padding: 80px 20px 0 0;
+	text-align: center;
+}
+.socials{
+	padding-top: 100px;
+}
+.fab{
+	margin-right: 10px;
+}
+.form-control{
+	border-radius: 20px;
+}
+
+
+
+
+@media (max-width: 1000px){
+	body{
+		background-position: -70% 68%, -70% -10%;
+		text-align: center;
+	}
+	h1{
+		font-size: 40px;
+	}
+	h3{
+		font-size: 35px;
+	}
+	h6{
+		background-color: hsl(13, 100%, 96%);
+		border-radius: 10px;
+		padding: 7px 0 10px;
+	}
+	.container-fluid{
+		padding: 0 10px 0 10px;
+	}
+	.navbar{
+		padding: 50px 35px;
+		text-align: center;
+	}
+	.navbar-nav{
+		margin-right: 0;
+	}
+	.nav-item{
+		margin-right: 0;
+	}
+	.mobile{
+		display: block;
+	}
+	.screen{
+		display: none;
+	}
+		/*Intro Section*/
+	.intro-section{
+		padding: 0;
+	}
+	.intro-img-mobile{
+		width: 100%;
+		height: 100%;
+	}
+	.intro-col{
+		padding: 0 40px;
+	}
+	.intro-text{
+		padding: 15px 40px;
+	}
+		/*About Section*/
+	.about-section{
+		padding: 0;
+	}
+	.about-col{
+		padding: 80px;
+	}
+	.about-text{
+		font-size: 14px;
+		padding: 15px 0;
+	}
+	.num{
+		margin-left: 30px;
+		position: relative;
+		z-index: 1;
+	}
+	.num-row{
+		padding: 20px;
+	}
+	.num-text{
+		padding: 10px;
+		text-align: left;
+	}
+	.col{
+		margin-top: -5px;
+		padding-right: 30px;
+	}
+
+		/*Testimonial Section*/
+	.testimonial-heading{
+		padding-bottom: 50px;
+	}
+	.testimonial-btn{
+		margin-top: 20px;
+	}
+
+		/*CTA Section*/
+	.cta-section{
+		padding: 80px 40px;
+	}
+	.col-btn{
+		text-align: center;
+	}
+
+		/*Footer*/
+	.footer-form{
+		padding: 50px 40px;
+	}
+	.form-control{
+		width: 75%;
+	}
+	.ul-2{
+		text-align: center;
+	}
+	.socials{
+		padding: 30px 0 50px; 
+	}
+	.fab{
+		margin-right: 25px;
+	}
+	.footer-text{
+	font-size: 14px;
+	padding: 40px 20px;
+	text-align: center;
+	}
+	.attribution{
+		margin-top: -20px;
+	}
+}
