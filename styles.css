@@ -235,11 +235,11 @@ a:hover{
 		padding: 0;
 	}
 	.about-col{
-		padding: 80px;
+		padding: 80px 80px 20px;
 	}
 	.about-text{
 		font-size: 14px;
-		padding: 15px 0;
+		padding: 15px 0 0;
 	}
 	.num{
 		margin-left: 30px;
